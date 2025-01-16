@@ -1,0 +1,21 @@
+{
+    "name": "nicholasjon87/reporting-package",
+    "description": "A reporting package for generating Excel, HTML, and PDF reports.",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "ReportingPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nicholasjon87",
+            "email": "nicholashastings87@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "^3.8",
+        "dompdf/dompdf": "^3.1"
+    }
+}

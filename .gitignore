@@ -1,0 +1,35 @@
+# Composer dependencies
+/vendor/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# IDE and Editor specific files
+.idea/
+.vscode/
+*.swp
+
+# Node modules (if any)
+node_modules/
+
+# Build artifacts
+*.phar
+
+# Report output files
+/reports/*.xlsx
+/reports/*.pdf
+/reports/*.html
+
+# Example-generated files
+/examples/*.xlsx
+/examples/*.pdf
+/examples/*.html
+
+# Miscellaneous
+*.bak
